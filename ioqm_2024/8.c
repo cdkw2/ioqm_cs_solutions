@@ -1,4 +1,8 @@
-#include<stdio.h>
+/*
+Let n be the smallest integer such that the sum of digits of n is divisible by 5 as well as the sum of digits of (n + 1) is divisible by 5. What are the first two digits of n in the same order?
+*/
+
+#include <stdio.h>
 
 int dsum(int n){
 	int dig = 0, dsum = 0;
